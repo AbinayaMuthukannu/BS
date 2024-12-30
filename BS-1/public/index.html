@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS-task1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid mt-3">
+        <h1>Student's Information</h1>
+        <div class="row mt-3 mb-3 g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow">
+                    <form>
+
+                        <div class="card-header bg-primary text-white text-center p-3">
+
+                            <h2>Basic Information </h2>
+                        </div>
+                        <div class="card-body">
+                            <label for="User Name" class="form-label"><strong>User Name:</strong></label>
+                            <input type="User Name" class="form-control" id="User Name" placeholder="Enter Username"
+                                name="User Name">
+                            <label for="Gender" class="form-label"><strong>Gender:</strong></label><br>
+                            <input type="radio" class="form-check-input-sm" id="men" name="Gender" value="Male">
+                            <label class="form-check-label" for="men">Male</label>
+                            <input type="radio" class="form-check-input-sm" id="women" name="Gender" value="Female">
+                            <label class="form-check-label" for="women">Female</label>
+                            <input type="radio" class="form-check-input-sm" id="others" name="Gender" value="Others">
+                            <label class="form-check-label" for="others">Others</label><br>
+                            <label for="Email" class="form-label"><strong>Email:</strong></label><br>
+                            <input type="Email" class="form-control" id="Email" placeholder="Enter Email" name="Email">
+                            <label for="ph number" class="form-label"><strong>Phone Number:</strong></label><br>
+                            <input type="number" class="form-control" id="ph number" placeholder="00000-00000"
+                                name="ph number">
+                            <label for="DOB" class="form-label"><strong>Date Of Birth:</strong></label><br>
+                            <input type="date" class="form-control" id="DOB" name="DOB">
+                            <label for="religion" class="form-label"><strong>Religion:</strong></label>
+                            <select class="form-select" id="religion" name="religion">
+                                <option>CHOOSE</option>
+                                <option>Hindu</option>
+                                <option>Christian</option>
+                                <option>Muslim</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow">
+                    <form>
+                        <div class="card-header bg-primary text-white text-center p-3">
+                            <h2>Academic</h2>
+                        </div>
+                        <div class="card-body">
+                            <label for="degree" class="form-label"><strong>Degree:</strong></label>
+                            <select class="form-select" id="degree" name="degree">
+                                <option>CHOOSE</option>
+                                <option>B.E</option>
+                                <option>M.E</option>
+                                <option>B.tech</option>
+                                <option>M.tech</option>
+                            </select>
+                            <label for="Branch" class="form-label"><strong>Branch:</strong></label>
+                            <select class="form-select" id="Branch" name="Branch">
+                                <option>CHOOSE</option>
+                                <option>Computer Science </option>
+                                <option>Aeronatical Engineering</option>
+                                <option>Information Technology</option>
+                                <option>Maths</option>
+                            </select>
+                            <label for="Year" class="form-label"><strong>Year:</strong></label>
+                            <select class="form-select" id="Year" name="Year">
+                                <option>CHOOSE</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                                <option>2023</option>
+                            </select>
+                            <label for="sem" class="form-label"><strong>Semester:</strong></label>
+                            <select class="form-select" id="sem" name="sem">
+                                <option>CHOOSE</option>
+                                <option>I</option>
+                                <option>II</option>
+                                <option>III</option>
+                                <option>IV</option>
+                            </select>
+                            <label for="admn" class="form-label"><strong>Admission:</strong></label>
+                            <select class="form-select" id="admn" name="admn">
+                                <option>CHOOSE</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                            <label for="language" class="form-label"><strong>Language Known:</strong></label><br>
+                            <input type="checkbox" class="form-check-input-sm" id="lang" name="language" value="Tamil">
+                            <label class="form-check-label" for="check">Tamil</label>
+                            <input type="checkbox" class="form-check-input-sm" id="lang" name="language"
+                                value="English">
+                            <label class="form-check-label" for="check">English</label>
+                            <input type="checkbox" class="form-check-input-sm" id="lang" name="language" value="Hindi">
+                            <label class="form-check-label" for="check">Hindi</label>
+                        </div>
+                </div>
+
+                </form>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow">
+                    <form>
+                        <div class="card-header bg-primary text-white text-center p-3">
+                            <h2>Parent's Information</h2>
+                        </div>
+                        <div class="card-body">
+                            <label for="father's name" class="form-label"><strong>Father's Name:</strong></label>
+                            <input type="father's name" class="form-control" id="name" placeholder="Enter Father's Name"
+                                name="father's name">
+                            <label for="mother's name" class="form-label"><strong>Mother's Name:</strong></label>
+                            <input type="mother's name" class="form-control" id="name" placeholder="Enter Mother's Name"
+                                name="mother's name">
+                            <label for="father's occupation" class="form-label"><strong>Father's
+                                    Occupation:</strong></label>
+                            <input type="father's occupation" class="form-control" id="name"
+                                placeholder="Enter Father's Occupation" name="father's occupation">
+                            <label for="mother's occupation" class="form-label"><strong>Mother's
+                                    Occupation:</strong></label>
+                            <input type="mother's occupation" class="form-control" id="name"
+                                placeholder="Enter Mother's Occupation" name="mother's occupation">
+                            <label for="father's Income" class="form-label"><strong>Father's Income:</strong></label>
+                            <input type="father's income" class="form-control" id="name"
+                                placeholder="Enter Father's Income" name="father's income">
+                            <label for="contact no" class="form-label"><strong>Contact Number:</strong></label><br>
+                            <input type="number" class="form-control" id="contact no" placeholder="00000-00000"
+                                name="contact no">
+                    </div>
+                    </form>
+                  </div>
+              </div>
+            <div>
+                <button type="button" class="btn btn-success float-end mt-3">Submit</button>
+            </div>
+</div>
+</body>
+
+</html>

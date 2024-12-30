@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header {
+    background-color: black;
+
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.content1 {
+    display: block;
+    align-content: center;
+    height: 650px;
+}
+.img-model{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-model img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.round:hover{
+background-color: aliceblue;
+color: black;
+}
+.world{
+    color: aliceblue;
+}
+.content5{
+    background-color: rgb(48,48,97);
+}
+.world:hover{
+    background-color: aliceblue;
+    
+
+}
+.content6{
+    background-color:black;
+}
+.arrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-top: -100px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-top: -42px;
+    color:white;
+}
+.port{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-top: 1px; 
+}
+.boots{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-top: 10px;
+    color:white;
+}
+.content2{
+    padding: 50px;
+}
+
+.cont{
+    margin-left: 25%;
+     margin-right: 25%;
+}
+ .modal-content{
+    height: 626px;
+} 
+
+.col-sm-4>img:hover{
+    opacity: 0.5;
+}
+
+.btn-success:hover{
+    
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    
+    .content2{
+        padding: 0;
+        margin-top: 80px;
+    }
+    .img{
+        margin-bottom:50px;
+    }
+    .navbar-toggler{
+        float: end;
+    }
+    .start{
+        font-size: 18px;
+    }
+    .col-sm-6 {
+        margin-top:20px;
+    }
+    .modal-content{
+        height: 570px;
+    }
+    .free{
+        margin-top:30px;
+    }
+    .around{
+        margin-top:10px;
+    }
+    
+    
+  }

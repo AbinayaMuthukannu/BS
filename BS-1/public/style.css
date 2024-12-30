@@ -1,0 +1,19 @@
+.card{
+    height: 100%;
+}
+h1{
+    text-align: center; 
+    color: blue; 
+    font-size: 50px; 
+    text-shadow: 2px 2px 3px lightskyblue;
+}
+@media screen and (max-width:600px){
+    h1{
+        font-size: 30px;
+    }
+}
+
+    
+    
+
+
